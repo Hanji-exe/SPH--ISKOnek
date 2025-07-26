@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "User-isko-1",
+      "email": "student1@example.com",
+      "password": "password123",
+      "name": "Isko Student",
+      "userType": "user",
+      "profile": {
+        "birthday": "2002-01-01",
+        "pronoun": "he/him",
+        "address": "Manila",
+        "bio": "I love joining orgs!",
+        "image": ""
+      }
+    },
+    {
+      "id": "Org-abc-1",
+      "email": "org1@example.com",
+      "password": "orgpass",
+      "name": "ABC Organization",
+      "userType": "organization",
+      "profile": {
+        "banner": "",
+        "logo": "",
+        "tags": [
+          "tech",
+          "community"
+        ],
+        "description": "A tech org for students.",
+        "skills": "Coding, teamwork",
+        "benefits": "Networking, learning",
+        "leader": "Jane Doe",
+        "yearFounded": 2015,
+        "eventsCreated": 2,
+        "totalMembers": 50,
+        "facebookFollowers": 1000
+      }
+    },
+    {
+      "id": "5cf6",
+      "email": "h.esmaelfahad@gmail.com",
+      "password": "huhuhuhu",
+      "userType": "user",
+      "profile": {},
+      "name": "Fahad Hadji Esmael"
+    },
+    {
+      "id": "ca7a",
+      "email": "hanjiacads@gmail.com",
+      "password": "huhuhuhu",
+      "userType": "organization",
+      "profile": {},
+      "name": "ha"
+    },
+    {
+      "id": "e94c",
+      "email": "fahadhadjiismael@gmail.com",
+      "password": "huhuhuhu",
+      "userType": "organization",
+      "profile": {},
+      "name": "AWS services"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "Org-abc-1",
+      "name": "ABC Organization",
+      "description": "A tech org for students.",
+      "applicationForm": "https://forms.gle/abc123"
+    }
+  ],
+  "events": [
+    {
+      "id": "Event-1",
+      "orgId": "Org-abc-1",
+      "title": "Tech Talk 2024",
+      "image": "",
+      "description": "A talk on the latest in tech.",
+      "label": "Seminar",
+      "organizer": "ABC Organization",
+      "date": "2024-07-01",
+      "time": "14:00",
+      "location": "Auditorium",
+      "rsvpForm": "https://forms.gle/event123",
+      "attendees": [
+        null,
+        "User-isko-1"
+      ]
+    }
+  ]
+}
